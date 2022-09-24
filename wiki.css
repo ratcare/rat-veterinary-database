@@ -1,0 +1,37 @@
+.sidenav {
+  width: 200px;
+  position: fixed; 
+  z-index: 1; 
+  top: 20px; 
+  left: 20px;
+  background-color: #0077CB; 
+  overflow-x: hidden; /* disable horizontal scroll */
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* nav menu links one */
+.sidenav a {
+  padding: 6px 6px 6px 16px;
+  text-decoration: none;
+  font-family: "Times New Roman";
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+}
+
+/* link hover */
+.sidenav a:hover {
+  color: blue;
+}
+
+/* page content */
+.stuff {
+  margin-left: 250px;
+  margin-right: 300px;
+}
+
+/* page */
+body {
+  background-color: #000000;
+}
